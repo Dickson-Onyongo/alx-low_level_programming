@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /*
- * main - main block
- * Description: get a  random number n and checks if its positive or negative.
+ * main function - entry point of the program
+ * Description: gets a  random number n and checks if its positive or negative.
  * Return- returns zero upon success
  *
  */
