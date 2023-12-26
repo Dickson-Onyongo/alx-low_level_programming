@@ -2,9 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 /*
- * Main function: Entry point of the program
- * Description: generates a  random number  and checks if its positive,negative or zero.
- * Returns: 0 upon successful completion
+ * main - Entry point of the program
+
+ * Description:
+ *	this function generates random number and checks if its positive,
+ *	negative or 0. it then orints the results and returns 0 upon success.
+
+ * Return: returns 0 upon successful completion
  *
  */
 
