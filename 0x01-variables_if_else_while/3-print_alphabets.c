@@ -1,0 +1,31 @@
+#include <stdio.h>
+/*8
+* main - Entry point.
+*
+* Return: Always 0 upon success
+**/
+int main ()
+{
+	char ch;
+
+	for (ch = 'a' ; ch <= 'z' ; ch++)
+	{
+
+	putchar (ch);
+
+	}
+
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
+	{
+
+	putchar (ch);
+
+	}
+
+	putchar ('\n');
+	putchar ('\n');
+
+	return (0);
+
+}
+
