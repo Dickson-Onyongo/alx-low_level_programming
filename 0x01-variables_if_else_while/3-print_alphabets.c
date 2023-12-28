@@ -15,6 +15,9 @@ int main(void)
 
 	}
 
+	putchar('\n');
+
+
 	for (ch = 'A' ; ch <= 'Z' ; ch++)
 	{
 
@@ -22,8 +25,7 @@ int main(void)
 
 	}
 
-	putchar ('\n');
-	putchar ('\n');
+
 
 	return (0);
 
