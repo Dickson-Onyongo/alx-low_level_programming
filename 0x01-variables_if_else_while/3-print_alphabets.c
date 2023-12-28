@@ -1,10 +1,10 @@
 #include <stdio.h>
-/*8
+/**
 * main - Entry point.
 *
 * Return: Always 0 upon success
 **/
-int main ()
+int main(void)
 {
 	char ch;
 
