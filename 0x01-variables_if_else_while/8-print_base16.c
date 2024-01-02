@@ -11,10 +11,10 @@ int main(void)
 
 	x = 0;
 
-	while (x < 16)
+	while (x < 15)
 	{
 
-	putchar(x + '0');
+	putchar(x < 10 ? x + '0' : x - 10 + 'a');
 	x++;
 
 	}
