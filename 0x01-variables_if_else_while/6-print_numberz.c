@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	char ch;
+	int ch;
 	ch = 0;
 
 	while (ch < 10)
@@ -17,7 +17,7 @@ int main(void)
 
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 
