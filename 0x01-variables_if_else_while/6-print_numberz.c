@@ -14,7 +14,6 @@ int main(void)
 	{
 
 	putchar(ch + '0');
-	
 	ch++;
 
 	}
