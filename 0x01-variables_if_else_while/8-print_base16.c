@@ -5,7 +5,7 @@
 * Return: returns 0 upon success.
 **/
 
-int main()
+int main(void)
 {
 	int x;
 
@@ -14,7 +14,7 @@ int main()
 	while (x < 16)
 	{
 
-	putchar(x = '0');
+	putchar(x + '0');
 	x++;
 
 	}
