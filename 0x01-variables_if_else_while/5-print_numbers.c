@@ -16,7 +16,8 @@ int main(void)
 	a++;
 
 	}
-	printf("%d\n", a);
+	
+	printf("\n");
 
 	return (0);
 
