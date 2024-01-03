@@ -8,18 +8,17 @@
 int main(void)
 {
 	int n = 402;
-	char ch;
+	char ch = n;
 	int *p = &n;
 
-	ch = n;
 
-	putchar(n);
+	putchar(ch);
 	putchar('\n');
 
 
 	*p = 98;
 
-	putchar(n);
+	putchar(ch);
 
 	return (0);
 
