@@ -18,7 +18,7 @@ int main(void)
 
 	*p = 98;
 
-	putchar(ch);
+	putchar((char)*p);
 
 	return (0);
 
