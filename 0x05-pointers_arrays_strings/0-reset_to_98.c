@@ -4,7 +4,7 @@
 *
 * Return: returns 0 upon success.
 **/
-void reset_to_98(void);
+void reset_to_98(int *n);
 
 int main(void)
 {
