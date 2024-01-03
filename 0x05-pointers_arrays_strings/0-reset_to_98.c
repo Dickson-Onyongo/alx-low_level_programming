@@ -1,14 +1,14 @@
+#include "main.h"
 #include <stdio.h>
 /**
 * main - Entry point.
 *
 * Return: returns 0 upon success.
 **/
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 
 int main(void)
 {
-	void reset_to_98();
 
 		int n = 402;
 		char ch = n;
