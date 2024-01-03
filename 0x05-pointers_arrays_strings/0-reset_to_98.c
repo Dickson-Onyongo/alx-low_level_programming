@@ -4,9 +4,12 @@
 *
 * Return: returns 0 upon success.
 **/
+void reset_to_98(void);
 
 int main(void)
 {
+	reset_to_98(void);
+
 	int n = 402;
 	char ch = n;
 	int *p = &n;
