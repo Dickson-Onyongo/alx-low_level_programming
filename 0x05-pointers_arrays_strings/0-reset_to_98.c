@@ -7,16 +7,20 @@
 
 int main(void)
 {
-	char n = '402';
-	char *p;
+	int n = 402;
+	char ch;
+	int *p = &n;
 
-	p = &n;
-
-	putchar(n);
-	
-	*p = '98';
+	ch = n;
 
 	putchar(n);
-}
+	putchar('\n');
+
+
+	*p = 98;
+
+	putchar(n);
 
 	return (0);
+
+}
