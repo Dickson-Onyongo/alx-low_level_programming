@@ -16,13 +16,11 @@ char *_strcat(char *dest, char *src)
 		count++;
 	}
 
-	while (count1 >= 0)
+	while (src[count1] >= '\0')
 	{
 
 		*(dest + count) = *(src + count1);
-		if (*(src + count1) == '\0')
 
-			break;
 		count++;
 		count1++;
 
