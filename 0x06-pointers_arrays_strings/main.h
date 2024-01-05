@@ -12,8 +12,4 @@ char *leet(char *);
 
 
 
-
-
-
-iiiiiii
 #endif
