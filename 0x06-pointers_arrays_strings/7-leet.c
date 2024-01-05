@@ -17,10 +17,12 @@ char *leet(char *ch)
 
 	for (i = 0; ch[i] != '\0'; i++)
 	{
-		for (j = 0; ch[i] == leet[j]; j++)
+		for (j = 0; j < 10; j++)
 		{
-
-		ch[i] = nums[j];
+			if (ch[i] == leet[j])
+			{
+				ch[i] = nums[j];
+			}
 
 		}
 	}
