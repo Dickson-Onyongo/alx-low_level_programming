@@ -23,8 +23,7 @@ char *leet(char *ch)
 		ch[i] = nums[j];
 
 		}
-		}
+	}
+	return (ch);
 
-		return (ch);
-
-		}
+}
