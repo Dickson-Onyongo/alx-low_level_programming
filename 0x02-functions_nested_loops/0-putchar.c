@@ -11,11 +11,11 @@ char _putchar(char i);
 int main()
 {
 
-	for (int i = 0; "_putchar!\n"[i] '\0'; i++}
+	for (int i = 0; "_putchar!\n"[i]; '\0'; i++)
 	{
 		putchar("_putchar!\n"[i]);
 
 	}
 
-	return (0);
+return (0);
 }
