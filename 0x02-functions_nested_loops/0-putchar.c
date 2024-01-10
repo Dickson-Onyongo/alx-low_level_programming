@@ -6,6 +6,7 @@
 * 
 * Return : returns 0 upon success.
 */
+char _putchar(char i);
 
 int main()
 {
