@@ -6,9 +6,8 @@
 * Return: returns 0 upon success
 */
 
-void print_alphabet(void);
+void print_alphabet(void)
 
-int main(void)
 {
 	char ch;
 
