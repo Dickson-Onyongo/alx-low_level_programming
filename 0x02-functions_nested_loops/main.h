@@ -2,7 +2,7 @@
 #define MAIN_H
 
  char _putchar(char i);
-
+void print_alphabet(void);
 
 
 
