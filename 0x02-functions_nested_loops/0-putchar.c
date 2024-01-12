@@ -4,7 +4,7 @@
 /**
 * main - prints _putchar followed by a new line
 *
-* Return : returns 0 upon success.
+* Return: returns 0 upon success.
 */
 
 int main(void)
