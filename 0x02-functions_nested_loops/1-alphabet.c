@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - prints the alphabet in loercase and adds a new line
+* print_alphabet - prints the alphabet in loercase and adds a new line
 *
 * Return: returns 0 upon success
 */
