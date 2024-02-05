@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdiio.h>
 /**
  * main - entry point of a program tht prints all combinations of single digit numbers.
  * 
@@ -7,8 +7,6 @@
 
 int main ()
 {
-	int i;
-	int j;
 
 	for (int i = 0; i < 10; ++i)
 	{
@@ -24,7 +22,7 @@ int main ()
 
 
 	}
-return (0)
+return (0);
 
 }
 
