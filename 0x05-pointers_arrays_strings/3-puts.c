@@ -1,18 +1,20 @@
 #include <stdio.h>
 /**
- * _puts - prints a string followed by new line.
- * @*str: string pointer.
- * @Mystr: the string
+ * _puts - prints a string to stdout followed by new line.
+ * @str: charracter array of string type.
+ *
  * Return: returns 0 upon success.
  */
 
 void _puts(char *str)
 {
-	char Mystr[];
-	char *str = &Mstr;
+	int i;
 
-	_puts(str);
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
 
 
-	return (0);
+	_putchar('\n');
 }
