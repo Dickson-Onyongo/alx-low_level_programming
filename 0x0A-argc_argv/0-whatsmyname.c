@@ -2,10 +2,10 @@
 
 /**
  * main - main program that prints its name,followed by new line.
- * argc - count of argumrnts supplied to the program
- * argv - array of strings containing those arguments
+ * @argc: count of argumrnts supplied to the program
+ * @argv: array of strings containing those arguments
  *
- * Return - retrns 0 upon succcess.
+ * Return: returns 0 upon succcess.
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
